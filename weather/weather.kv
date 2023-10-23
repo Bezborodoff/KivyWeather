@@ -1,0 +1,277 @@
+#:kivy 1.4
+#.venv\share\kivy-examples\demo\kivycatalog\kivycatalog.kv
+ScreenManager:
+    id: screen_manager
+    Container:
+        id: menu_screen
+        name: 'MenuScreen'
+        manager: 'screen_manager'
+<Container>:
+    link_town:town
+    link_temp:temp
+    link_img:w_img
+    link_time:time_id
+	link_today:today
+    link_date:date_id
+    link_weather_desc:weather_desc
+    link_main_hum:main_hum
+    link_main_wind_speed:main_wind_speed
+    link_feels_like:feels_like
+	
+	link_dayW1:dayW1
+	link_day1:day1
+	link_dayTemp_n_1:dayTemp_n_1
+	link_dayTemp_d_1:dayTemp_d_1
+	
+	link_dayW2:dayW2
+	link_day2:day2
+	link_dayTemp_n_2:dayTemp_n_2
+	link_dayTemp_d_2:dayTemp_d_2
+	
+	link_dayW3:dayW3
+	link_day3:day3
+	link_dayTemp_n_3:dayTemp_n_3
+	link_dayTemp_d_3:dayTemp_d_3
+
+	link_dayW4:dayW4
+	link_day4:day4
+	link_dayTemp_n_4:dayTemp_n_4
+	link_dayTemp_d_4:dayTemp_d_4
+
+	link_dayW5:dayW5
+	link_day5:day5
+	link_dayTemp_n_5:dayTemp_n_5
+	link_dayTemp_d_5:dayTemp_d_5
+
+	link_dayW6:dayW6
+	link_day6:day6
+	link_dayTemp_n_6:dayTemp_n_6
+	link_dayTemp_d_6:dayTemp_d_6
+
+	link_imgDay1:imgDay1
+	link_imgDay2:imgDay2
+	link_imgDay3:imgDay3
+	link_imgDay4:imgDay4
+	link_imgDay5:imgDay5
+	link_imgDay6:imgDay6
+
+    BoxLayout:
+    	orientation:'vertical'
+    	BoxLayout:
+    		orientation:'horizontal'
+	    	padding:10
+		    size_hint:1, 0.5
+    		GridLayout:
+	    		rows:1
+		    	#padding:30
+    			Label:
+    				id:town
+	    			text:'-'  
+		    		font_size: 40
+			    	size_hint: 0.8, 0.8
+				    spacing:2
+    				padding:10
+    		BoxLayout:
+	    		size_hint:0.4, 1
+		    	orientation:'vertical'
+			    Label:
+    			Label:
+                    id:time_id
+	    			text:'-:-'
+		    		font_size: 30
+    			Label:
+					id:today
+	    			text:'--'
+		    		font_size: 30
+    			Label:
+                    id:date_id
+	    			text:'--.--.----'
+	    BoxLayout:
+    		orientation:'vertical'
+    		#spacing:5
+	    	padding:10
+    		BoxLayout:
+	    		orientation:'horizontal'
+		    	#size_hint: 1, 0.3
+			    BoxLayout:
+    				orientation:'vertical'
+	    			AsyncImage:
+                        id:w_img
+		    			size_hint: 1, 2
+			    		source:'https://openweathermap.org/img/wn/04d@2x.png'
+				    	allow_stretch: False
+    				Label:
+	    				font_size:50
+		    			id:temp
+			    		text:'-°'
+				    Label:
+                        id:feels_like
+    					text:'feels like: -°'
+    
+	    		BoxLayout:
+		    		orientation:'vertical'
+			    	Label:
+                        id:weather_desc
+				    	text:'-'
+    				Label:
+                        id:main_hum
+	    				text:'влажность:-%'
+		    		Label:
+                        id:main_wind_speed
+			    		text:'ветер:-м/с'
+				    Label:
+				    Label:			
+    		GridLayout:
+	    		size_hint: 1, 0.7
+		    	cols:6
+			
+			    BoxLayout:	
+				    orientation:'vertical'
+    				padding:1
+	    			Label:
+						id:dayW1
+						font_size:12
+			    		text:'-'
+					Label:
+						id:day1
+			    		text:'-'
+    				AsyncImage:
+						id:imgDay1
+						size_hint: 1, 2
+		    			source:'https://openweathermap.org/img/wn/04d.png'
+			    		#allow_stretch: False
+				    Label:
+						id:dayTemp_n_1
+					    font_size:12
+						text:'-°'
+    				Label:
+						id:dayTemp_d_1
+	    				font_size:12
+						text:'-°'
+		    		
+	    		BoxLayout:	
+				    orientation:'vertical'
+    				padding:1
+	    			Label:
+						id:dayW2
+						font_size:12
+			    		text:'-'
+					Label:
+						id:day2
+			    		text:'-'
+    				AsyncImage:
+						id:imgDay2
+						size_hint: 1, 2
+		    			source:'https://openweathermap.org/img/wn/04d.png'
+			    		#allow_stretch: False
+				    Label:
+						id:dayTemp_n_2
+						font_size:12
+					    text:'-°'
+    				Label:
+						id:dayTemp_d_2
+						font_size:12
+	    				text:'-°'
+		    		
+	    		BoxLayout:	
+				    orientation:'vertical'
+    				padding:1
+	    			Label:
+						id:dayW3
+						font_size:12
+			    		text:'-'
+					Label:
+						id:day3
+			    		text:'-'
+    				AsyncImage:
+	    				id:imgDay3
+						size_hint: 1, 2
+		    			source:'https://openweathermap.org/img/wn/04d.png'
+			    		#allow_stretch: False
+				    Label:
+						id:dayTemp_n_3
+						font_size:12
+					    text:'-°'
+    				Label:
+						id:dayTemp_d_3
+						font_size:12
+	    				text:'-°'
+	    		BoxLayout:	
+				    orientation:'vertical'
+    				padding:1
+	    			Label:
+						id:dayW4
+						font_size:12
+			    		text:'-'
+					Label:
+						id:day4
+			    		text:'-'
+    				AsyncImage:
+	    				id:imgDay4
+						size_hint: 1, 2
+		    			source:'https://openweathermap.org/img/wn/04d.png'
+			    		#allow_stretch: False
+				    Label:
+						id:dayTemp_n_4
+						font_size:12
+					    text:'-°'
+    				Label:
+						id:dayTemp_d_4
+						font_size:12
+	    				text:'-°'
+	    		BoxLayout:
+				    orientation:'vertical'
+    				padding:1
+	    			Label:
+						id:dayW5
+						font_size:12
+			    		text:'-'
+					Label:
+						id:day5
+			    		text:'-'
+    				AsyncImage:
+	    				id:imgDay5
+						size_hint: 1, 2
+		    			source:'https://openweathermap.org/img/wn/04d.png'
+			    		#allow_stretch: False
+				    Label:
+						id:dayTemp_n_5
+						font_size:12
+					    text:'-°'
+    				Label:
+						id:dayTemp_d_5
+						font_size:12
+	    				text:'-°'
+	    		BoxLayout:
+				    orientation:'vertical'
+    				padding:1
+	    			Label:
+						id:dayW6
+						font_size:12
+			    		text:'-'
+					Label:
+						id:day6
+			    		text:'-'
+    				AsyncImage:
+	    				id:imgDay6
+						size_hint: 1, 2
+		    			source:'https://openweathermap.org/img/wn/04d.png'
+			    		#allow_stretch: False
+				    Label:
+						id:dayTemp_n_6
+						font_size:12
+					    text:'-°'
+    				Label:
+						id:dayTemp_d_6
+						font_size:12
+	    				text:'-°'
+		    		
+				
+    	Button:
+	    	text:'Обновить'
+    		size_hint: 1, 0.2
+	    	background_color: (1.0, 0.0, 0.0, 1.0)
+             
+            on_release:
+                root.load_temp()
+             

@@ -1,0 +1,262 @@
+{
+    "city": {
+        "id": 524901,
+        "name": "Москва",
+        "coord": {
+            "lon": 37.6156,
+            "lat": 55.7522
+        },
+        "country": "RU",
+        "population": 1000000,
+        "timezone": 10800
+    },
+    "cod": "200",
+    "message": 4.1447886,
+    "cnt": 7,
+    "list": [
+        {
+            "dt": 1697965200,
+            "sunrise": 1697948005,
+            "sunset": 1697984066,
+            "temp": {
+                "day": 2.57,
+                "min": 1,
+                "max": 2.99,
+                "night": 2.99,
+                "eve": 2.52,
+                "morn": 1.32
+            },
+            "feels_like": {
+                "day": -0.76,
+                "night": -0.07,
+                "eve": -1.02,
+                "morn": -0.95
+            },
+            "pressure": 1022,
+            "humidity": 81,
+            "weather": [
+                {
+                    "id": 616,
+                    "main": "Snow",
+                    "description": "снег с дождём",
+                    "icon": "13d"
+                }
+            ],
+            "speed": 4.04,
+            "deg": 150,
+            "gust": 9.31,
+            "clouds": 100,
+            "pop": 0.6,
+            "rain": 0.18,
+            "snow": 1.16
+        },
+        {
+            "dt": 1698051600,
+            "sunrise": 1698034530,
+            "sunset": 1698070324,
+            "temp": {
+                "day": 7.48,
+                "min": 3.44,
+                "max": 9,
+                "night": 5.46,
+                "eve": 8.34,
+                "morn": 4.32
+            },
+            "feels_like": {
+                "day": 6.56,
+                "night": 2.04,
+                "eve": 8.34,
+                "morn": 2.1
+            },
+            "pressure": 1002,
+            "humidity": 90,
+            "weather": [
+                {
+                    "id": 500,
+                    "main": "Rain",
+                    "description": "небольшой дождь",
+                    "icon": "10d"
+                }
+            ],
+            "speed": 4.73,
+            "deg": 351,
+            "gust": 8.77,
+            "clouds": 100,
+            "pop": 0.96,
+            "rain": 3.91
+        },
+        {
+            "dt": 1698138000,
+            "sunrise": 1698121055,
+            "sunset": 1698156583,
+            "temp": {
+                "day": 3.62,
+                "min": 0,
+                "max": 4.86,
+                "night": 0,
+                "eve": 2.1,
+                "morn": 2.96
+            },
+            "feels_like": {
+                "day": 0.01,
+                "night": -2.96,
+                "eve": -1.27,
+                "morn": -0.99
+            },
+            "pressure": 1010,
+            "humidity": 60,
+            "weather": [
+                {
+                    "id": 500,
+                    "main": "Rain",
+                    "description": "небольшой дождь",
+                    "icon": "10d"
+                }
+            ],
+            "speed": 5.27,
+            "deg": 346,
+            "gust": 10.45,
+            "clouds": 86,
+            "pop": 1,
+            "rain": 3.22
+        },
+        {
+            "dt": 1698224400,
+            "sunrise": 1698207580,
+            "sunset": 1698242844,
+            "temp": {
+                "day": 1.59,
+                "min": -1.32,
+                "max": 2.69,
+                "night": -0.02,
+                "eve": 1.18,
+                "morn": -1.23
+            },
+            "feels_like": {
+                "day": 0.15,
+                "night": -2.04,
+                "eve": -0.56,
+                "morn": -4.16
+            },
+            "pressure": 1020,
+            "humidity": 51,
+            "weather": [
+                {
+                    "id": 800,
+                    "main": "Clear",
+                    "description": "ясно",
+                    "icon": "01d"
+                }
+            ],
+            "speed": 2.4,
+            "deg": 32,
+            "gust": 4.44,
+            "clouds": 0,
+            "pop": 0
+        },
+        {
+            "dt": 1698310800,
+            "sunrise": 1698294106,
+            "sunset": 1698329105,
+            "temp": {
+                "day": 0.99,
+                "min": -1.31,
+                "max": 1.75,
+                "night": -0.45,
+                "eve": 0.47,
+                "morn": -1.31
+            },
+            "feels_like": {
+                "day": -2.21,
+                "night": -3.86,
+                "eve": -2.61,
+                "morn": -3.56
+            },
+            "pressure": 1022,
+            "humidity": 62,
+            "weather": [
+                {
+                    "id": 804,
+                    "main": "Clouds",
+                    "description": "пасмурно",
+                    "icon": "04d"
+                }
+            ],
+            "speed": 2.96,
+            "deg": 124,
+            "gust": 7.18,
+            "clouds": 91,
+            "pop": 0
+        },
+        {
+            "dt": 1698397200,
+            "sunrise": 1698380632,
+            "sunset": 1698415368,
+            "temp": {
+                "day": 1.47,
+                "min": -1.67,
+                "max": 2.66,
+                "night": -0.17,
+                "eve": 0.88,
+                "morn": -1.67
+            },
+            "feels_like": {
+                "day": -2.86,
+                "night": -4.98,
+                "eve": -3.52,
+                "morn": -5.74
+            },
+            "pressure": 1017,
+            "humidity": 55,
+            "weather": [
+                {
+                    "id": 801,
+                    "main": "Clouds",
+                    "description": "небольшая облачность",
+                    "icon": "02d"
+                }
+            ],
+            "speed": 4.75,
+            "deg": 138,
+            "gust": 12.04,
+            "clouds": 17,
+            "pop": 0
+        },
+        {
+            "dt": 1698483600,
+            "sunrise": 1698467159,
+            "sunset": 1698501632,
+            "temp": {
+                "day": -0.28,
+                "min": -0.63,
+                "max": 0.52,
+                "night": 0.52,
+                "eve": 0.25,
+                "morn": 0
+            },
+            "feels_like": {
+                "day": -5.76,
+                "night": -2.17,
+                "eve": -3.71,
+                "morn": -5.39
+            },
+            "pressure": 1008,
+            "humidity": 97,
+            "weather": [
+                {
+                    "id": 616,
+                    "main": "Snow",
+                    "description": "снег с дождём",
+                    "icon": "13d"
+                }
+            ],
+            "speed": 6.24,
+            "deg": 140,
+            "gust": 14.54,
+            "clouds": 100,
+            "pop": 1,
+            "rain": 0.28,
+            "snow": 9.72
+        }
+    ]
+}
