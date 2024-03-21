@@ -31,12 +31,13 @@ import dayWord as dw
 
 #этот кусок берет информацию с сайта
 #url с текущей погодоой
-url='https://api.openweathermap.org/data/2.5/weather?lat=55.7522&lon=37.6156&appid=39b390d2080e84bc8ece00b18120aaf8&units=metric&lang=RU'
+#<appid> заменить на свой, с сайта openweathermap
+url='https://api.openweathermap.org/data/2.5/weather?lat=55.7522&lon=37.6156&appid=<appid>8&units=metric&lang=RU'
 #store the response of URL
 response = urlopen(url)
 
 #url с прогнозом на 16 дней
-url_forecast='https://api.openweathermap.org/data/2.5/forecast/daily?lat=55.7522&lon=37.6156&appid=39b390d2080e84bc8ece00b18120aaf8&units=metric&lang=RU'
+url_forecast='https://api.openweathermap.org/data/2.5/forecast/daily?lat=55.7522&lon=37.6156&appid=<appid>&units=metric&lang=RU'
 #store the response of URL
 response_daily = urlopen(url_forecast)
 
